@@ -17,6 +17,8 @@ namespace Dedicnost_I3B
 
         // base odkazuje na předka 
         // this odkazuje na aktuální třídu
+
+        // override upravuje virtuální metodu (překrývá jí) polymorfizmus
         public override void Pozdrav()
         {
             //base.Pozdrav();
