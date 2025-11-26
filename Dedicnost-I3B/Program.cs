@@ -20,6 +20,23 @@
             Capslock.Pozdrav();
             //všude kde očekávám třídu můžu doplnit třídu potomka jenom že se (musíme k němu chovat podle rozhraní předka) 
             Clovek[] Rodina = {Karel, Capslock};
+
+            foreach (Clovek c in Rodina)
+            {
+                Console.WriteLine($"{c.Jmeno}");
+                if (c is Student s)
+                {
+                    Console.WriteLine(s.Obor);
+                }
+            }
+
+            // boxing
+            object BoxedKarel = (object)Karel; // Při neůspěchu vyhodí Exception
+
+            // unboxing -> musíme vybalit do stejného objektu
+            Clovek? ZnovuKarel = BoxedKarel as Clovek; // Při neůspěchu uloží null
+            //Console.WriteLine(ZnovuKarel == null);
+
         }
 
         //modifikátor params -> proměnný počet parametrů

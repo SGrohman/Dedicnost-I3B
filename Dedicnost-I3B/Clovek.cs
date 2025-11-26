@@ -8,8 +8,8 @@ namespace Dedicnost_I3B
 {
     public class Clovek
     {
-        public string Jmeno { get; set; }
-        public int Vek { get; set; }
+        public string Jmeno { get; protected set; }
+        public int Vek { get; protected set; }
 
         public Clovek(string Jmeno,int vek)
         {
