@@ -40,7 +40,7 @@
         }
 
         //modifikátor params -> proměnný počet parametrů
-        /*static void VypisujSlova(params string[] slova)
+        /*1static void VypisujSlova(params string[] slova)
         {
             foreach (string s in slova)
                 Console.WriteLine(s);
