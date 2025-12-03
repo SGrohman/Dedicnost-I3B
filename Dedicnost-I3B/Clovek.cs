@@ -11,6 +11,9 @@ namespace Dedicnost_I3B
         public string Jmeno { get; protected set; }
         public int Vek { get; protected set; }
 
+        //konstruktor - vytváří instanci(inicializuje) objektu
+        // inacializující metada bez datového typu
+        // inicíalizace přidání hodnot do objektu
         public Clovek(string Jmeno,int vek)
         {
             this.Jmeno = Jmeno;
