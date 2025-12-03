@@ -17,7 +17,7 @@ namespace Dedicnost_I3B
             Vek = vek;
         }
         // přetěžovaní metod (OVERLOADING)
-        // virtual -> povoluje úpravy v potomcích
+        // virtual -> povoluje úpravy v potomcích  -- polimorfizmus umoznuje upravovat tělo zděděné metody 
         public virtual void Pozdrav()
         {
             Console.WriteLine($"Dobrý den, tady {Jmeno}");
